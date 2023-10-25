@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Sittings Box Start  -->
+    <div class="sittings-box">
+      <div class="toggle-sittings">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <div class="sittings-container">
+        <div class="options-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#00b0ff"></li>
+            <li data-color="#ba68c8"></li>
+            <li data-color="#8bc34a"></li>
+          </ul>
+        </div>
+        <div class="options-box">
+          <h4>Random Background</h4>
+          <div class="random-backgrounds">
+            <span class="on active" data-background="on">On</span>
+            <span class="off" data-background="off">Off</span>
+          </div>
+        </div>
+        <div class="options-box">
+          <h4>Side Bullets</h4>
+          <div class="side-bullets">
+            <span class="on active" data-display="on">On</span>
+            <span class="off" data-display="off">Off</span>
+          </div>
+        </div>
+        <button class="reset-sittings">Reset All Sittings</button>
+      </div>
+    </div>
+    <!-- Sittings Box End  -->
+
+    <!-- Nav Bullets Start  -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About US</div>
+      </div>
+      <div class="bullet" data-section=".customers">
+        <div class="tooltip">Customers</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact Us</div>
+      </div>
+    </div>
+    <!-- Nav Bullets End  -->
+
+    <!-- Landing Page Start -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="header-area">
+        <div class="logo">Special Design</div>
+        <div class="links-container">
+          <ul class="links">
+            <li>
+              <a href="#" class="active" data-section=".about-us">About</a>
+            </li>
+            <li><a href="#" data-section=".customers">Customers</a></li>
+            <li><a href="#" data-section=".gallery">Gallery</a></li>
+            <li><a href="#" data-section=".timeline">Timeline</a></li>
+            <li><a href="#" data-section=".features">Features</a></li>
+            <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+            <li><a href="#" data-section=".contact">Contact Us</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>Touch <span>The Space</span> Horizon</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+          architecto consequuntur quia eveniet, voluptatum cum.
+        </p>
+      </div>
+    </div>
+    <!-- Landing Page End -->
+
+    <!-- About Us Start  -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
+            maxime assumenda ab vero commodi, laudantium, unde, incidunt culpa
+            nisi nulla beatae asperiores dolorem repellat non quas. Aliquam odio
+            deserunt maiores.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="imgs/about.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- About Us End  -->
+
+    <!-- Our Customers Start -->
+    <div class="customers">
+      <div class="container">
+        <h2>Our Customers</h2>
+        <div class="customer-box">
+          <div class="name">USA</div>
+          <div class="percentage">
+            <span data-progress="76%"></span>
+          </div>
+        </div>
+        <div class="customer-box">
+          <div class="name">Brazi</div>
+          <div class="percentage">
+            <span data-progress="37%"></span>
+          </div>
+        </div>
+        <div class="customer-box">
+          <div class="name">Qatar</div>
+          <div class="percentage">
+            <span data-progress="82%"></span>
+          </div>
+        </div>
+        <div class="customer-box">
+          <div class="name">France</div>
+          <div class="percentage">
+            <span data-progress="55%"></span>
+          </div>
+        </div>
+        <div class="customer-box">
+          <div class="name">Egypt</div>
+          <div class="percentage">
+            <span data-progress="92%"></span>
+          </div>
+        </div>
+        <div class="customer-box">
+          <div class="name">Japan</div>
+          <div class="percentage">
+            <span data-progress="28%"></span>
+          </div>
+        </div>
+        <div class="customer-box">
+          <div class="name">Canada</div>
+          <div class="percentage">
+            <span data-progress="47%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Customers End -->
+
+    <!-- Our Gallery Start  -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          <img src="imgs/spaceship 01.jpg" alt="Photo One" />
+          <img src="imgs/spaceship 02.jpg" alt="Photo Two" />
+          <img src="imgs/spaceship 03.jpg" alt="Photo Three" />
+          <img src="imgs/spaceship 04.jpg" alt="Photo Four" />
+          <img src="imgs/spaceship 05.jpg" alt="Photo Five" />
+          <img src="imgs/spaceship 06.jpg" alt="Photo Six" />
+          <img src="imgs/spaceship 07.jpg" alt="Photo Seven" />
+          <img src="imgs/spaceship 08.jpg" alt="Photo Eight" />
+          <img src="imgs/spaceship 09.jpg" alt="Photo Nine" />
+          <img src="imgs/spaceship 10.jpg" alt="Photo Ten" />
+        </div>
+      </div>
+    </div>
+    <!-- Our Gallery End  -->
+
+    <!-- Timeline Start  -->
+    <div class="timeline">
+      <div class="container">
+        <!-- YEAR -->
+        <div class="timeline-content">
+          <div class="year">2022</div>
+          <div class="left">
+            <div class="content">
+              <h3>Test Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                sint, voluptatem nemo magnam similique deleniti velit
+                praesentium ut minima ad eos tenetur dolorum molestiae iste
+                debitis quis rerum quia magni?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Test Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                sint, voluptatem nemo magnam similique deleniti velit
+                praesentium ut minima ad eos tenetur dolorum molestiae iste
+                debitis quis rerum quia magni?
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- YEAR -->
+        <div class="timeline-content">
+          <div class="year">2019</div>
+          <div class="left">
+            <div class="content">
+              <h3>Test Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                sint, voluptatem nemo magnam similique deleniti velit
+                praesentium ut minima ad eos tenetur dolorum molestiae iste
+                debitis quis rerum quia magni?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Test Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                sint, voluptatem nemo magnam similique deleniti velit
+                praesentium ut minima ad eos tenetur dolorum molestiae iste
+                debitis quis rerum quia magni?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Timeline End  -->
+
+    <!-- Features Start  -->
+    <div class="features">
+      <div class="container">
+        <h2>Our Features</h2>
+        <div class="boxes">
+          <div class="box">
+            <div class="image">
+              <img src="imgs/icon 01.png" alt="" />
+            </div>
+            <h4>Test</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+              nihil!
+            </p>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="imgs/icon 02.png" alt="" />
+            </div>
+            <h4>Test</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+              nihil!
+            </p>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="imgs/icon 03.png" alt="" />
+            </div>
+            <h4>Test</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+              nihil!
+            </p>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="imgs/icon 04.png" alt="" />
+            </div>
+            <h4>Test</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+              nihil!
+            </p>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="imgs/icon 05.png" alt="" />
+            </div>
+            <h4>Test</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+              nihil!
+            </p>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="imgs/icon 06.png" alt="" />
+            </div>
+            <h4>Test</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+              nihil!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features End  -->
+
+    <!-- Testimonials Start  -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="ts-box">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quam!
+          </p>
+          <div class="person-info">
+            <img src="imgs/avatar.jpg" alt="" />
+            <h4>Name</h4>
+            <p>Job</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quam!
+          </p>
+          <div class="person-info">
+            <img src="imgs/avatar.jpg" alt="" />
+            <h4>Name</h4>
+            <p>Job</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quam!
+          </p>
+          <div class="person-info">
+            <img src="imgs/avatar.jpg" alt="" />
+            <h4>Name</h4>
+            <p>Job</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonials End  -->
+
+    <!-- Contact US Start -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact US</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input
+              type="text"
+              placeholder="Your Phone Number"
+              name="phone"
+              maxlength="18"
+            />
+            <input type="email" placeholder="Your E-mail" name="email" />
+            <input type="text" placeholder="Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea
+              name="message"
+              placeholder="Enter Your Message Here"
+            ></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Contact US End -->
+
+    <!-- Footer Start  -->
+    <div class="footer">
+      Created By Ahmed Abdelraouf -- <span></span> &copy; All Rights Reserved
+    </div>
+    <!-- Footer End  -->
+    <script src="./js/master.js"></script>
+  </body>
+</html>
